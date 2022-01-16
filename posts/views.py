@@ -10,35 +10,35 @@ from posts.forms import PostForm
 # Models
 from posts.models import Post
 
-# posts = [
-#     {
-#         'title': 'Mont Blanc',
-#         'user': {
-#             'name': 'Yésica Cortés',
-#             'picture': 'https://picsum.photos/60/60/?image=1027'
-#         },
-#         'timestamp': datetime.now().strftime('%b %dth, %Y - %H:%M hrs'),
-#         'photo': 'https://picsum.photos/800/600?image=1036',
-#     },
-#     {
-#         'title': 'Via Láctea',
-#         'user': {
-#             'name': 'Christian Van der Henst',
-#             'picture': 'https://picsum.photos/60/60/?image=1005'
-#         },
-#         'timestamp': datetime.now().strftime('%b %dth, %Y - %H:%M hrs'),
-#         'photo': 'https://picsum.photos/800/800/?image=903',
-#     },
-#     {
-#         'title': 'Nuevo auditorio',
-#         'user': {
-#             'name': 'Uriel (thespianartist)',
-#             'picture': 'https://picsum.photos/60/60/?image=883'
-#         },
-#         'timestamp': datetime.now().strftime('%b %dth, %Y - %H:%M hrs'),
-#         'photo': 'https://picsum.photos/500/700/?image=1076',
-#     }
-# ]
+# # # POSTS = [
+# # #     {
+# # #         'TITLE': 'MONT BLANC',
+# # #         'USER': {
+# # #             'NAME': 'YÉSICA CORTÉS',
+# # #             'PICTURE': 'HTTPS://PICSUM.PHOTOS/60/60/?IMAGE=1027'
+# # #         },
+# # #         'TIMESTAMP': DATETIME.NOW().STRFTIME('%B %DTH, %Y - %H:%M HRS'),
+# # #         'PHOTO': 'HTTPS://PICSUM.PHOTOS/800/600?IMAGE=1036',
+# # #     },
+# # #     {
+# # #         'TITLE': 'VIA LÁCTEA',
+# # #         'USER': {
+# # #             'NAME': 'CHRISTIAN VAN DER HENST',
+# # #             'PICTURE': 'HTTPS://PICSUM.PHOTOS/60/60/?IMAGE=1005'
+# # #         },
+# # #         'TIMESTAMP': DATETIME.NOW().STRFTIME('%B %DTH, %Y - %H:%M HRS'),
+# # #         'PHOTO': 'HTTPS://PICSUM.PHOTOS/800/800/?IMAGE=903',
+# # #     },
+# # #     {
+# # #         'TITLE': 'NUEVO AUDITORIO',
+# # #         'USER': {
+# # #             'NAME': 'URIEL (THESPIANARTIST)',
+# # #             'PICTURE': 'HTTPS://PICSUM.PHOTOS/60/60/?IMAGE=883'
+# # #         },
+# # #         'TIMESTAMP': DATETIME.NOW().STRFTIME('%B %DTH, %Y - %H:%M HRS'),
+# # #         'PHOTO': 'HTTPS://PICSUM.PHOTOS/500/700/?IMAGE=1076',
+# # #     }
+# # # ]
 
 
 @login_required
